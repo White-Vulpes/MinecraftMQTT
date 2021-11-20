@@ -59,8 +59,8 @@ public class ExampleMod
 
         MqttConnectOptions options = new MqttConnectOptions();
         options.setMqttVersion(MqttConnectOptions.MQTT_VERSION_3_1);
-        options.setUserName("WhiteVulpes");
-        options.setPassword("aio_UeAS52c18O0fKsPbEalbihcZXGJw".toCharArray());
+        options.setUserName("---Your Username---");
+        options.setPassword("---Your API Key---".toCharArray());
 
         String clientId = MqttClient.generateClientId();
         System.out.println(clientId);
